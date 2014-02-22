@@ -1,0 +1,68 @@
+html {
+    background: #F4EAEC url(http://pixabay.com/get/e99fcd51081d1db82baa/1393096145/cheese-164872_1280.jpg?direct) 0 0 fixed;
+}
+
+div.pizza div {
+    height: 2em;
+    text-align:center;
+}
+
+div.pizza > div div {
+    float: left;
+    width: 48%;
+    position: relative;
+    overflow: hidden;
+}
+
+div.pizza span {
+    display: block;
+    position: inline;
+    padding: 0 5px;
+    float: right;
+    width: 50%;
+    padding: 0 10px;
+}
+
+div.pizza span:after {
+    content: "";
+    display: inline;
+    position: inline;
+    top: 50%;
+    width: 10000px;
+    border-top: 1px dotted #000;
+}
+
+div.menu_item span {
+    left: 0;
+}
+
+div.menu_item span:after {
+    left: 100%;
+}
+
+div.cost span {
+    right: 0;
+}
+
+div.cost span:after {
+    right: 100%;
+}
+
+.logo
+{
+   text-align:center;
+}
+
+h1 {
+  text-align:center
+}
+
+h4 {
+  text-align:center
+}
+
+img {
+     margin: 25px;
+     padding: 10px;
+     border: solid black 1px
+}

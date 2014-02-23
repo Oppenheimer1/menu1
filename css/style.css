@@ -1,15 +1,20 @@
 html {
-    background: #F4EAEC url(http://pixabay.com/get/e99fcd51081d1db82baa/1393096145/cheese-164872_1280.jpg?direct) 0 0 fixed;
+    background: #F4EAEC url(http://www.larsbergportfolio.com/portfolio/HTML_CSS_projects/pizza_menu/img/pizza2.jpg) 0 0 fixed;
+}
+
+body
+{
+  color: white;
 }
 
 div.pizza div {
-    height: 2em;
+    height: 3em;
     text-align:center;
 }
 
 div.pizza > div div {
     float: left;
-    width: 48%;
+    width: 50%;
     position: relative;
     overflow: hidden;
 }
@@ -17,7 +22,7 @@ div.pizza > div div {
 div.pizza span {
     display: block;
     position: inline;
-    padding: 0 5px;
+    padding: 0 50px;
     float: right;
     width: 50%;
     padding: 0 10px;
@@ -28,7 +33,7 @@ div.pizza span:after {
     display: inline;
     position: inline;
     top: 50%;
-    width: 10000px;
+    width: 1000px;
     border-top: 1px dotted #000;
 }
 
